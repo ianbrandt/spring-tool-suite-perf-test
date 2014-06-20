@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.6.0.201406191924-CI-B720]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[true]]></enableImports>
+	<configs>
+		<config>src/it/resources/com/ianbrandt/sts/perf/test/AbcIT-context.xml</config>
+		<config>src/it/resources/com/ianbrandt/sts/perf/test/DefIT-context.xml</config>
+		<config>src/main/resources/parent-context.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+		<configSet>
+			<name><![CDATA[integration-test]]></name>
+			<allowBeanDefinitionOverriding>true</allowBeanDefinitionOverriding>
+			<incomplete>false</incomplete>
+			<configs>
+				<config>src/it/resources/com/ianbrandt/sts/perf/test/AbcIT-context.xml</config>
+				<config>src/it/resources/com/ianbrandt/sts/perf/test/DefIT-context.xml</config>
+				<config>src/main/resources/parent-context.xml</config>
+			</configs>
+			<profiles>
+			</profiles>
+		</configSet>
+	</configSets>
+</beansProjectDescription>
