@@ -1,6 +1,6 @@
 package com.ianbrandt.sts.perf.test;
 
-public class TestBean implements Destroyable {
+public class TestBean extends Destroyable {
 
 	public TestBean(ParentBean parentBean) {
 

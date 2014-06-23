@@ -1,8 +1,8 @@
 package com.ianbrandt.sts.perf.test;
 
-public interface Destroyable {
+public class Destroyable {
 
-	default void destroy() {
+	public void destroy() {
 
 		System.out.println(toString() + " destroyed");
 	}
